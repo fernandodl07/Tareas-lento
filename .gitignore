@@ -1,0 +1,33 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+
+# Next.js
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+
+# Variables de entorno (el ID real no se sube; .env.example sí)
+.env
+.env*.local
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Editores y herramientas
+.vscode/
+.idea/
+.vercel
